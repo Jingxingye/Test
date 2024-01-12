@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        int i =10;
+        i=i++;
         System.out.println("Hello world!");
-        System.out.printf("测试！！！");
+        System.out.println(i);
     }
 }
